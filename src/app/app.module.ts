@@ -7,6 +7,7 @@ import { MovieListComponent } from './components/movies/movie-list/movie-list.co
 import { MovieItemComponent } from './components/movies/movie-list/movie-item/movie-item.component';
 import { MovieCastComponent } from './components/movies/movie-list/movie-cast/movie-cast.component';
 import { UserComponent } from './components/user/user.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { UserComponent } from './components/user/user.component';
     MovieCastComponent,
     UserComponent,
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
