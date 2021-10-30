@@ -6,6 +6,7 @@ import { MoviesComponent } from './components/movies/movies.component';
 import { MovieListComponent } from './components/movies/movie-list/movie-list.component';
 import { MovieItemComponent } from './components/movies/movie-list/movie-item/movie-item.component';
 import { MovieCastComponent } from './components/movies/movie-list/movie-cast/movie-cast.component';
+import { UserComponent } from './components/user/user.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { MovieCastComponent } from './components/movies/movie-list/movie-cast/mo
     MovieListComponent,
     MovieItemComponent,
     MovieCastComponent,
+    UserComponent,
   ],
   imports: [BrowserModule],
   providers: [],
